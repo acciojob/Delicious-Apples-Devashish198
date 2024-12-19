@@ -1,1 +1,46 @@
-/* your code here */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#10E37F;
+}
+.product{
+	display:flex;
+}
+.photo-container{
+	background-color:white;
+	display:flex;
+	flex-direction:column;
+	border-radius:10px;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.controls{
+	color:white;
+	display:flex;
+	justify-content:space-between;
+	margin:10px;
+}
+.photo-main{
+	background-color:#B0E835;
+}
+.photo-album{
+	display:flex;
+	align-content:left;
+}
+ul{
+	display:flex;
+	
+}
+.price{
+	color:red;
+	font-size:50px;
+}
+li{
+	border:1px solid lightgray;
+	padding:3px;
+	margin:3px;
+	border-radius:10px;
+	list-style-type:none;
+	
+}
