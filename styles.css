@@ -32,6 +32,12 @@ ul{
 	display:flex;
 	
 }
+.btn{
+	background-color:orange;
+	border-radius:5px;
+	padding:5px;
+	margin:10px
+}
 .price{
 	color:red;
 	font-size:50px;
